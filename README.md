@@ -12,4 +12,4 @@ run -i --rm leelazero -g --noponder
 time_settings 0 30 1;
 ```
 
-![sabaki](images/sabaki.png "Sabaki")
+![sabaki](images/Screen Shot 2018-03-25 at 22.27.47.png "Sabaki")
