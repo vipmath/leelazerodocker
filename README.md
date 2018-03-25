@@ -11,3 +11,5 @@ docker
 run -i --rm leelazero -g --noponder
 time_settings 0 30 1;
 ```
+
+![sabaki](images/sabaki.png "Sabaki")
