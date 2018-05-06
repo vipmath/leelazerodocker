@@ -1,6 +1,19 @@
 # leelazer odocker
 Leela Zero Dockerfile
 
+## Create Image with leelaz_dockerfile.txt
+
+```
+docker build -f leelaz_dockerfile.txt .
+```
+You probably want to rename it to leelazero
+```
+docker images
+docker tag [id of leelazero docker] leelazero:latest
+```
+
+
+## 
 Compile Leela-Zero in a docker (without GPU)
 
 sabaki can use and call from docker like any other GTP
