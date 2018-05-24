@@ -5,14 +5,7 @@
 By using the `--no-cache`, docker will fetch the latest network weights. You can re-run the command if you want to have the weights updated again.
 
 ```
-docker build --no-cache -f leelaz_dockerfile.txt .
-```
-
-You probably want to rename it to leelazero
-
-```
-docker images
-docker tag [id of leelazero docker] leelazero:latest
+docker build -t leelazero:latest --no-cache -f leelaz_dockerfile.txt .
 ```
 
 ## Configure Sabaki to use Leela-Zero from docker
